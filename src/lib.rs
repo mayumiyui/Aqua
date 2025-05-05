@@ -28,7 +28,7 @@ async fn main(req: Request, env: Env, _: Context) -> Result<Response> {
 
     Router::with_data(config)
         .on_async("/", fe)
-        .on_async("/sub", sub)
+        .on_async("/mayumiwandi", sub)
         .on("/link", link)
         .on_async("/:proxyip", tunnel)
         .run(req, env)
@@ -114,17 +114,17 @@ fn link(_: Request, cx: RouteContext<Config>) -> Result<Response> {
 
     let vmess_link = {
         let config = json!({
-            "ps": "siren vmess",
+            "ps": "Aqua vmess",
             "v": "2",
             "add": host,
-            "port": "80",
+            "port": "443",
             "id": uuid,
             "aid": "0",
             "scy": "zero",
             "net": "ws",
             "type": "none",
             "host": host,
-            "path": "/KR",
+            "path": "/146.235.19.79-28983",
             "tls": "",
             "sni": "",
             "alpn": ""}
