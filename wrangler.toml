@@ -4,7 +4,7 @@ compatibility_date = "2024-05-23"
 minify = true
 
 [[kv_namespaces]]
-binding = "YUMI
+binding = "YUMI"
 id = "57ba24ed79b04865b941a48f00446f55"
 
 [build]
