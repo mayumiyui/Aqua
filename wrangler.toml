@@ -15,5 +15,5 @@ build = { command = "cargo install worker-build && worker-build --dev" }
 
 [vars]
 UUID = "2098b37f-ed03-4bca-ba58-1e3a5df9b21a"
-MAIN_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/index.html"
-SUB_PAGE_URL = "https://raw.githubusercontent.com/FoolVPN-ID/Siren/refs/heads/master/web/sub.html"
+MAIN_PAGE_URL = "https://raw.githubusercontent.com/mayumiyui/Aqua/refs/heads/master/web/index.html"
+SUB_PAGE_URL = "https://raw.githubusercontent.com/mayumiyui/Aqua/refs/heads/master/web/mayumiwandi.html"
